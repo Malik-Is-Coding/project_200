@@ -1,4 +1,4 @@
-* Universal */
+/* Universal */
 body{
    
 }
@@ -84,3 +84,31 @@ text-align: center;
 }
 
 /* xx Suggestion xx */
+
+/* Quotes */
+.quote{
+    margin-top:100px;
+    
+}
+.quo{
+    align-items: center;
+}
+.quo-txt{
+    font-family: 'Dancing Script', cursive; 
+    font-size:25px ;
+}
+/* xx Quotes xx */
+
+/* about us */
+.about-us{
+    width:100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sub-head{
+    color:rgb(73, 73, 73);
+}
+.about-txt{
+    color:rgb(75, 75, 75);
+}
+/* xx about us xx */

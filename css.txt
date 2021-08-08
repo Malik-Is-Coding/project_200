@@ -10,24 +10,48 @@ body{
 
     margin-left:-30px;
 }
-.heroimg{
-   background-image: url(assets/getty_496612468_2000138820009280460_336567.jpg);
+
+.actionimg{
+   background-image: url(assets/action.png),linear-gradient(to bottom, #ADB2B6, #ABAEB3);
+
    background-position: center center;
    background-size:cover;
-   position:relative;
+   position:absolute;
    width:100%;
    height:80vh;
    display:flex;
    align-items:center;
    z-index: 0;
 }
-.imgherocolor{
-    background-image:linear-gradient(to right,rgb(0, 0, 0), rgba(0,0,0,0.4));
+.romopacity{
+    opacity:40%;
+}
+.imgactioncolor{
+    background-image:linear-gradient(to top,rgb(0, 0, 0), rgba(0,0,0,0.4));
     position:absolute;
     width:100%;
     height:80vh;
     z-index:1;
 }
+.romimg{
+    background-image: url(assets/rom\ back.png);
+ 
+    background-position: center center;
+    background-size:cover;
+    position:absolute;
+    width:100%;
+    height:80vh;
+    display:flex;
+    align-items:center;
+    z-index: 0;
+ }
+ .imgactioncolor{
+     background-image:linear-gradient(to top,rgb(0, 0, 0), rgba(0,0,0,0.4));
+     position:absolute;
+     width:100%;
+     height:80vh;
+     z-index:1;
+ }
 .herotxt{
     z-index: 12;
     color:rgb(255, 255, 255);
@@ -50,6 +74,7 @@ body{
 }
 .crime-text{
 text-align: center;
+z-index: 23233;
 }
 .card-row{
     padding-top: 40px;
@@ -82,33 +107,45 @@ text-align: center;
     background-color: #c62127;
     color:white;
 }
+.dawn-card{
+    background-color: #2d5e7f;
+    color:#fff;
+}
+.nine-card{
+    background-color:#805c46;
+    color:#fff;
+}
+.trilogy-card{
+    background-color:#000;
+    color:#fff;
+}
+.faling-card{
+    background-color:#543244;
+    color:#fff;
+}
+.letter-card{
+    background-color:#e9f1e6;
+    color:#000;
+}
+.end-card{
+    background-color:#a42a93;
+    color:#fff;
+}
+.blood-card{
+    background-color: #141f1b;
+    color: #fff;
+}
+.silent-card{
+background-color: #3f6b7e;
+color: #fff;
+}
+.holmes-card{
+    background-color: #000005;
+    color: #fff;
+}
+.key-card{
+    background-color: #172842;
+    color: #fff;
+}
 
 /* xx Suggestion xx */
-
-/* Quotes */
-.quote{
-    margin-top:100px;
-    
-}
-.quo{
-    align-items: center;
-}
-.quo-txt{
-    font-family: 'Dancing Script', cursive; 
-    font-size:25px ;
-}
-/* xx Quotes xx */
-
-/* about us */
-.about-us{
-    width:100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.sub-head{
-    color:rgb(73, 73, 73);
-}
-.about-txt{
-    color:rgb(75, 75, 75);
-}
-/* xx about us xx */

@@ -36,8 +36,8 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="genre/crime-thriller.html">Crime Thriller</a></li>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="genre/action.html">Action</a></li>
+                  <li><a class="dropdown-item" href="genre/romance.html">Romance</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -119,7 +119,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <img src="assets/istockphoto-1126667586-170667a.jpg" alt="" class="rounded" width="300px" height="auto">
+            <img src="assets/istockphoto-1126667586-170667a.jpg" alt="" class="rounded" width="300px" heigt="auto">
           </div>
           <div class="col-sm-8">
             <h6 class="sub-head">About Us</h6>
@@ -127,6 +127,58 @@
             <p class="about-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nulla ratione laudantium velit incidunt modi eius praesentium quam esse non rem necessitatibus itaque saepe culpa hic blanditiis, dolorum nesciunt laboriosam.</p>
            <a href="about us/about us.html" class="btn btn-outline-dark"> Read More</a>
           </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="container member-card">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-center" style="width: 18rem;">
+             <div class="card-body">
+                <h5 class="card-title">Membership Card</h5>
+                <h1 class="card-title">$15/Month</h1>
+                <p class="card-text t-blue">24/7 Helpline</p>
+                <p class="card-text t-blue">No Ads</p>
+                <p class="card-text t-red">Access To Premium</p>
+                <p class="card-text t-red">Ability To Borrow</p>
+                <p class="card-text t-red">Upload Own Books</p>
+                <p class="card-text t-red">Free Books Every Month</p>
+                <a href="#" class="btn btn-outline-primary">Purchase Now</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card text-center" style="width: 18rem;">
+             <div class="card-body">
+                <h5 class="card-title">Membership Card</h5>
+                <h1 class="card-title">$25/Month</h1>
+                <p class="card-text t-blue">24/7 Helpline</p>
+                <p class="card-text t-blue">No Ads</p>
+                <p class="card-text t-blue">Access To Premium</p>
+                <p class="card-text t-red">Ability To Borrow</p>
+                <p class="card-text t-red">Upload Own Books</p>
+                <p class="card-text t-red">Free Books Every Month</p>
+                <a href="#" class="btn btn-outline-primary">Purchase Now</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card text-center" style="width: 18rem;">
+             <div class="card-body">
+                <h5 class="card-title">Membership Card</h5>
+                <h1 class="card-title">$50/Month</h1>
+                <p class="card-text t-blue">24/7 Helpline</p>
+                <p class="card-text t-blue">No Ads</p>
+                <p class="card-text t-blue">Access To Premium</p>
+                <p class="card-text t-blue">Ability To Borrow</p>
+                <p class="card-text t-blue">Upload Own Books</p>
+                <p class="card-text t-blue">Free Books Every Month</p>
+                <a href="#" class="btn btn-outline-primary">Purchase Now</a>
+              </div>
+            </div>
         </div>
       </div>
     </div>

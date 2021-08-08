@@ -1,0 +1,151 @@
+/* Universal */
+body{
+   
+}
+
+/* xx Universal xx */
+
+/* Hero Section */
+.heroback{
+
+    margin-left:-30px;
+}
+
+.actionimg{
+   background-image: url(assets/action.png),linear-gradient(to bottom, #ADB2B6, #ABAEB3);
+
+   background-position: center center;
+   background-size:cover;
+   position:absolute;
+   width:100%;
+   height:80vh;
+   display:flex;
+   align-items:center;
+   z-index: 0;
+}
+.romopacity{
+    opacity:40%;
+}
+.imgactioncolor{
+    background-image:linear-gradient(to top,rgb(0, 0, 0), rgba(0,0,0,0.4));
+    position:absolute;
+    width:100%;
+    height:80vh;
+    z-index:1;
+}
+.romimg{
+    background-image: url(assets/rom\ back.png);
+ 
+    background-position: center center;
+    background-size:cover;
+    position:absolute;
+    width:100%;
+    height:80vh;
+    display:flex;
+    align-items:center;
+    z-index: 0;
+ }
+ .imgactioncolor{
+     background-image:linear-gradient(to top,rgb(0, 0, 0), rgba(0,0,0,0.4));
+     position:absolute;
+     width:100%;
+     height:80vh;
+     z-index:1;
+ }
+.herotxt{
+    z-index: 12;
+    color:rgb(255, 255, 255);
+    margin-left: 4rem;
+}
+.tex{
+    font-family:'Staatliches', cursive;
+    font-size:4rem;
+    font-weight:700;
+    color: rgb(255, 255, 255);
+}
+/* xx Hero Section xx */
+
+/* Suggestion */
+.suggest-section{
+    padding-top: 100px;
+}
+.crime-thriller{
+    margin-top: 50px;
+}
+.crime-text{
+text-align: center;
+z-index: 23233;
+}
+.card-row{
+    padding-top: 40px;
+
+}
+.card{
+    margin-top: 20px;
+}
+.card-btn{
+    background-color: #fff;
+    border: 1px;
+}
+.suns-card{
+    background-color: #faf4cd;
+}
+.lost-card{
+    background-color: black;
+    color: white;
+}
+.love-card{
+    background-color: #e9bc7f;
+}
+.light-card{
+    background-color: #e6ae26;
+}
+.disappeared-card{
+    background-color: #66c8c9;
+}
+.girls-card{
+    background-color: #c62127;
+    color:white;
+}
+.dawn-card{
+    background-color: #2d5e7f;
+    color:#fff;
+}
+.nine-card{
+    background-color:#805c46;
+    color:#fff;
+}
+.trilogy-card{
+    background-color:#000;
+    color:#fff;
+}
+.faling-card{
+    background-color:#543244;
+    color:#fff;
+}
+.letter-card{
+    background-color:#e9f1e6;
+    color:#000;
+}
+.end-card{
+    background-color:#a42a93;
+    color:#fff;
+}
+.blood-card{
+    background-color: #141f1b;
+    color: #fff;
+}
+.silent-card{
+background-color: #3f6b7e;
+color: #fff;
+}
+.holmes-card{
+    background-color: #000005;
+    color: #fff;
+}
+.key-card{
+    background-color: #172842;
+    color: #fff;
+}
+
+/* xx Suggestion xx *
